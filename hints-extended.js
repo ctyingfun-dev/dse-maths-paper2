@@ -1,0 +1,17 @@
+import {ppHints} from './hints-pp.js';
+import {hints2012} from './hints-2012.js';
+import {hints2013} from './hints-2013.js';
+import {hints2014} from './hints-2014.js';
+import {hints2015} from './hints-2015.js';
+import {hints2016} from './hints-2016.js';
+import {hints2017} from './hints-2017.js';
+import {hints2018} from './hints-2018.js';
+import {hints2019} from './hints-2019.js';
+import {hints2020} from './hints-2020.js';
+import {hints2021} from './hints-2021.js';
+import {hints2022} from './hints-2022.js';
+import {hints2023} from './hints-2023.js';
+import {hints2024} from './hints-2024.js';
+import {hints2025} from './hints-2025.js';
+import {hints2026} from './hints-2026.js';
+export const extendedHints=[...ppHints,...hints2012,...hints2013,...hints2014,...hints2015,...hints2016,...hints2017,...hints2018,...hints2019,...hints2020,...hints2021,...hints2022,...hints2023,...hints2024,...hints2025,...hints2026];

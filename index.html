@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#087d70">
+  <title>DSE 數學研習室 | Paper 2 卷二操練</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="techniques.css">
+  <link rel="stylesheet" href="programs.css">
+  <link rel="stylesheet" href="similarity-visual.css">
+  <link rel="stylesheet" href="geometry-visual.css">
+  <link rel="stylesheet" href="question-scenes.css">
+  <link rel="stylesheet" href="trigo-visual.css">
+  <script src="vendor/lucide.js" defer></script>
+  <link rel="stylesheet" href="paper2.css">
+  <link rel="stylesheet" href="paper2-all.css">
+  <script type="module" src="paper2-all.js"></script>
+  <style>
+    .paper-switch{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin:16px 8px 0;padding:8px 12px;border:1px solid #b8ccc6;border-radius:6px;color:#087d70;font-size:13px;font-weight:650;background:#fff}
+    .paper-switch:hover{background:#e9f5f1}.paper-switch svg{width:18px;height:18px}
+    @media(max-width:760px){.paper-switch{margin:12px 0 0}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">跳至主要內容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#papers"><span class="brand-mark">m<span>+</span></span><span>DSE 數學<span class="brand-sub">研習室 · Paper 2</span></span></a>
+    <a class="paper-switch" href="https://ctyingfun-dev.github.io/dse-maths/" aria-label="前往 Paper 1 卷一網站"><i data-lucide="arrow-right-left" aria-hidden="true"></i><span>Paper 1 · 卷一</span></a>
+    <div class="nav-caption">你的溫習空間</div>
+    <nav aria-label="主要導覽">
+      <a href="#find" data-route="find"><i data-lucide="scan-search"></i><span>同類題搜尋</span></a>
+      <a href="#topics" data-route="topics"><i data-lucide="chart-no-axes-combined"></i><span>課題分佈</span></a>
+      <a href="#papers" data-route="papers"><i data-lucide="files"></i><span>整卷操練</span></a>
+      <a href="#guide" data-route="guide"><i data-lucide="lightbulb"></i><span>技巧站</span></a>
+      <a href="#programs" data-route="programs"><i data-lucide="calculator"></i><span>計算機 Program</span></a>
+      <a href="#saved" data-route="saved"><i data-lucide="bookmark"></i><span>我的操練</span><b id="saved-count">0</b></a>
+    </nav>
+    <div class="sidebar-bottom"><span class="status-dot"></span>必修部分 · 卷二<br><small>2012–2026 · 675 題 · 卷二</small></div>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><span>一步一步，找出自己的解題方法。</span><div id="save-status" role="status">Paper 2 獨立進度</div></header>
+    <main id="main" tabindex="-1"><div class="loading">正在載入題庫…</div></main>
+    <footer>2012–2026 卷二 · 獨立網站<span>Paper 2 進度獨立儲存</span></footer>
+  </div>
+  <dialog id="paper-dialog" aria-labelledby="paper-title"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

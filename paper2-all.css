@@ -1,0 +1,11 @@
+.p2-search{grid-template-columns:repeat(4,minmax(0,1fr))}
+.p2-search label,.p2-actions label{min-width:0}
+.page-head .p2-actions{margin:0;align-items:end}
+.p2-numbers button:has(small){height:48px}
+.p2-numbers button small{display:block;font-size:9px;line-height:1.2}
+.p2-solution details{margin-top:12px}
+.p2-source p:empty{display:none}
+.p2-palette details{max-height:70vh;overflow:auto;padding:3px}
+@media(max-width:1000px){.p2-search{grid-template-columns:repeat(2,minmax(0,1fr))}.page-head .p2-actions{flex-wrap:wrap}}
+@media(max-width:760px){.p2-palette details{max-height:60vh}.page-head .p2-actions{width:100%}.page-head .p2-actions>.field{flex:1}}
+@media(max-width:370px){.p2-search{grid-template-columns:minmax(0,1fr)}}

@@ -1,0 +1,27 @@
+.similarity-visual{margin:18px 0;border:1px solid #b4cfc3;border-radius:8px;background:#f7faf6;overflow:hidden}
+.similarity-visual summary{padding:15px;min-height:48px;font-weight:700;cursor:pointer;color:#176650}
+.similarity-visual summary:focus-visible{outline:3px solid #dfac33;outline-offset:-3px}
+.sv-body{padding:0 15px 18px}.viewer-aside .sv-body p{font-size:13px;line-height:1.8;color:#41564a;margin:12px 0}
+.sv-label{display:block;font-weight:650;font-size:14px;margin-top:16px}
+.sv-label output{color:#a65127;font-size:20px}
+.sv-body input[type=range]{width:100%;min-height:44px;padding:0;accent-color:#b75e35;border:0;background:transparent}
+.sv-actions{display:flex;flex-wrap:wrap;gap:8px}.sv-actions button{min-height:44px;padding:8px 10px;background:white;border:1px solid #b4cfc3;font-size:13px}
+.sv-diagram{display:block;width:100%;height:auto;margin:0;stroke-width:2}
+.sv-cylinder-0{color:#5674a0}.sv-cylinder-1{color:#087d70}.sv-cylinder-2{color:#b65d35}
+.sv-diagram text{fill:currentColor;font:13px sans-serif;stroke:none}
+.sv-comparisons{display:grid;gap:10px}
+.sv-comparisons>div{padding:12px;background:white;border:1px solid #dce5dc;border-radius:6px;font-size:13px}
+.sv-comparisons b{display:block;color:#35604a;margin-bottom:10px}
+.sv-comparisons>div>div,.sv-share{display:flex;align-items:center;flex-wrap:wrap;gap:7px;line-height:1.4}
+.sv-fraction{display:inline-flex;flex-direction:column;align-items:stretch;text-align:center;vertical-align:middle;line-height:1.5;font-variant-numeric:tabular-nums}
+.sv-fraction>span{padding:2px 5px}.sv-fraction>span:first-child{border-bottom:1px solid currentColor}
+.sv-power{display:inline-flex;align-items:flex-start;white-space:nowrap}
+.sv-power-base{display:inline-flex;align-items:center;gap:2px}
+.sv-power-base>span:first-child,.sv-power-base>span:last-child{font-size:2.3em;font-weight:300;line-height:1}
+.sv-power sup{position:static;align-self:flex-start;font-size:.8em;line-height:1.2;margin-left:2px}
+.sv-volume{padding:14px 0;font-size:13px}
+.sv-bar{display:flex;height:23px;margin:12px 0;border-radius:4px;overflow:hidden}
+.sv-bar span:nth-child(1){background:#5674a0}.sv-bar span:nth-child(2){background:#087d70}.sv-bar span:nth-child(3){background:#b65d35}
+.sv-legend{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:15px}
+.sv-message{padding:12px;background:#fff0d7;border-radius:6px;font-size:13px}
+.sv-live{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}

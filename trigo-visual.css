@@ -1,0 +1,55 @@
+.trigo-visual{margin:18px 0;border:1px solid #bdd7ce;border-radius:16px;background:#f5faf7;overflow:hidden;color:#21483f}
+.trigo-heading{padding:16px 16px 0}
+.trigo-heading>span{font-size:12px;font-weight:700;letter-spacing:.12em;color:#48776b}
+.trigo-heading h4{margin:6px 0;font-size:18px;line-height:1.5}
+.trigo-intro,.trigo-caption,.trigo-note{margin:10px 16px;line-height:1.8;font-size:14px}
+.trigo-modes,.trigo-presets{display:flex;flex-wrap:wrap;gap:7px;padding:4px 16px}
+.trigo-visual button{min-height:42px;padding:8px 10px;border:1px solid #b4cfc5;border-radius:9px;background:#fff;color:#284e42;font:inherit;font-size:13px;cursor:pointer}
+.trigo-visual button[aria-pressed=true]{background:#17685b;color:#fff;border-color:#17685b}
+.trigo-visual button:focus-visible,.trigo-visual input:focus-visible{outline:3px solid #e4a545;outline-offset:3px}
+.trigo-stage{position:relative;width:100%;height:calc(var(--trigo-height,380px) + 34px);touch-action:none;cursor:grab;user-select:none;background:radial-gradient(ellipse at 50% 40%,#fff,#eaf3ed)}
+.trigo-stage.is-dragging{cursor:grabbing}
+.trigo-stage .trigo-picture{display:block;width:100%;height:var(--trigo-height,380px);overflow:hidden}
+.trigo-drag-tip{display:block;text-align:center;font-size:12px;color:#456d60;padding:5px}
+.trigo-face{fill:var(--face-shade,#96c7b9);fill-opacity:1;stroke:none}
+.trigo-face.is-focused{fill-opacity:.12}
+.trigo-tone-1.is-focused{fill:#dea446;fill-opacity:.75}
+.trigo-tone-2.is-focused{fill:#4caa98;fill-opacity:.6}
+.trigo-ground{fill:#d1dfd3;fill-opacity:.3;stroke:#a7bcae;stroke-width:1;stroke-dasharray:5 5}
+.trigo-grid{stroke:#bacdbf;stroke-width:.7}
+.trigo-edge{stroke:#305e4c;stroke-width:2}
+.trigo-hidden{stroke:#667c72;stroke-width:1.5;stroke-dasharray:7 7;stroke-linecap:butt}
+.trigo-focus-edge{stroke:#9b6823;stroke-width:2}
+.trigo-aux{stroke:#a74735;stroke-width:1.8;stroke-dasharray:5 4}
+.trigo-measure{stroke:#286855;stroke-width:2}
+.trigo-angle{fill:none;stroke:#a76a25;stroke-width:1.5}
+.trigo-point{fill:#255345;stroke:#fff;stroke-width:1}
+.trigo-foot{fill:#ae4c38;stroke:#fff;stroke-width:1}
+.trigo-leader{stroke:#6a8377;stroke-width:.7;opacity:.6}
+.trigo-picture .trigo-text{fill:#193c30;font-size:13px;font-family:inherit;text-anchor:middle;dominant-baseline:central;paint-order:stroke;stroke:#f8fcf8;stroke-width:5;stroke-linejoin:round}
+.trigo-picture .trigo-vertex-label{font-size:15px;font-weight:700}
+.trigo-caption{border-left:3px solid #cf9c46;padding-left:10px;min-height:54px}
+.trigo-sliders{display:grid;gap:10px;margin:12px 16px}
+.trigo-sliders label{font-size:14px;display:grid;grid-template-columns:1fr auto;gap:5px}
+.trigo-sliders input{grid-column:1/-1;width:100%;min-width:0;min-height:26px;accent-color:#17685b}
+.trigo-sliders output{font-variant-numeric:tabular-nums}
+.trigo-label-toggle{display:flex;gap:8px;align-items:center;margin:10px 16px;font-size:14px;min-height:36px}
+.trigo-label-toggle input{accent-color:#17685b}
+.trigo-label-toggle input[type=checkbox]{width:18px;height:18px;min-height:18px;padding:0;flex:0 0 18px}
+.viewer-aside .trigo-intro,.viewer-aside .trigo-caption{font-size:14px;color:#385d4d;margin:10px 16px}
+.viewer-aside .trigo-note{margin:10px 16px;color:#557163}
+.trigo-facts{margin:10px 16px;padding-left:20px;font-size:14px;line-height:1.8}
+.trigo-note{font-size:12px;color:#557163}
+.trigo-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.viewer-aside .trigo-legend{margin:8px 16px;color:#526a5f;font-size:12px;line-height:1.8}
+.trigo-visual .trigo-expand{margin:8px 16px;background:#17685b;color:white;font-weight:700}
+dialog.trigo-enlarged .viewer-body{display:block}
+dialog.trigo-enlarged .page-scan,dialog.trigo-enlarged .viewer-aside>:not(.trigo-visual){display:none}
+dialog.trigo-enlarged .viewer-aside{height:100%;max-height:none;border:0;padding:12px;overflow:auto}
+dialog.trigo-enlarged .trigo-visual{max-width:940px;margin:0 auto}
+@media(pointer:coarse){.trigo-visual button{min-height:44px}.trigo-sliders input{min-height:40px}}
+@media(min-width:761px){.viewer-body:has(.trigo-visual){grid-template-columns:minmax(0,1fr) clamp(320px,38vw,440px)}}
+@media(max-width:760px){
+  .viewer-body:has(.trigo-visual) .page-scan{flex:0 0 clamp(130px,22dvh,200px);min-height:0}
+  .viewer-body:has(.trigo-visual) .viewer-aside{flex:1;min-height:0;max-height:none}
+}

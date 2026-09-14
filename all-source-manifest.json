@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-14",
+  "questions": 675,
+  "papers": [
+    {
+      "year": 2012,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2013,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2014,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2015,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2016,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2017,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2018,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2019,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2020,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2021,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": false,
+      "durationNote": "檔案缺封面；75 分鐘為本次操練限時，原卷限時待核對。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2022,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2023,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2024,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2025,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    },
+    {
+      "year": 2026,
+      "count": 45,
+      "durationMinutes": 75,
+      "durationVerified": true,
+      "durationNote": "原卷封面：一小時十五分鐘。",
+      "verified": 45,
+      "pending": 0
+    }
+  ],
+  "sources": [
+    {
+      "year": 2012,
+      "pdf": "paper2-2012/original.pdf",
+      "sha256": "ed2f4805ac820a509e3457c36c1da0b7eb2b81cdb5ba42d534f22ade5621cee3"
+    },
+    {
+      "year": 2013,
+      "pdf": "paper2-2013/original.pdf",
+      "sha256": "5aef9445c8dbe79f7b35c8d4d4a4270715b9faa414ecd358983d65394718f4ed"
+    },
+    {
+      "year": 2014,
+      "pdf": "paper2-2014/original.pdf",
+      "sha256": "898ee9b38c285f7f5ac2a3011142a06055a089d1696243aa81cb0ae7c1d68374"
+    },
+    {
+      "year": 2015,
+      "pdf": "paper2-2015/original.pdf",
+      "sha256": "3236771b07b567148041207c72a42f5ad699af5f66123b53331aa003be3836f8"
+    },
+    {
+      "year": 2016,
+      "pdf": "paper2-2016/original.pdf",
+      "sha256": "e61bd20c88dffecd92d0a14ecd2ddbb3b77e65741605068b3d435f2741f20078"
+    },
+    {
+      "year": 2017,
+      "pdf": "paper2-2017/original.pdf",
+      "sha256": "e2e713a359562980d07a536bec65bdc680f8e6316955a03260326294035418b5"
+    },
+    {
+      "year": 2018,
+      "pdf": "paper2-2018/original.pdf",
+      "sha256": "ef9e4a156d0f5fce80474115ebe52578030155f614800b1f81b3d554fe438c51"
+    },
+    {
+      "year": 2019,
+      "pdf": "paper2-2019/original.pdf",
+      "sha256": "5fcb6004d4e4b189d179e08871222ea622facbcfb345efe0a66b2fb402e825d1"
+    },
+    {
+      "year": 2020,
+      "pdf": "paper2-2020/original.pdf",
+      "sha256": "a0abf3b4df2733d4178e6eb29ce76440da1dfdcd429307294130f43c93ba70b4"
+    },
+    {
+      "year": 2021,
+      "pdf": "paper2-2021/original.pdf",
+      "sha256": "e1aa5ae8edb5d18d201f00889fc25c59463b6d8456deb47401ea8f5e2c4efbc8"
+    },
+    {
+      "year": 2022,
+      "pdf": "paper2-2022/original.pdf",
+      "sha256": "2b39cdba803e240ce2cda0bc8c4c94a9366a9b9a44fc497510482d63409952e0"
+    },
+    {
+      "year": 2023,
+      "pdf": "paper2-2023/original.pdf",
+      "sha256": "81d30525e7fb7f9c15fca79a7ee2f6869628ab3e98be162d3f228ec5df85d78a"
+    },
+    {
+      "year": 2024,
+      "pdf": "paper2-2024/original.pdf",
+      "sha256": "4091276569ce04e98ce23c44eea51da7de3502c51de4b6af075169c026f94784"
+    },
+    {
+      "year": 2025,
+      "pdf": "paper2-2025/original.pdf",
+      "sha256": "315b03031a426b240fc6e7218a5a16e0179fdaaf9ffadb89ab71a6f04904b9df"
+    },
+    {
+      "year": 2026,
+      "pdf": "paper2-2026/original.pdf",
+      "sha256": "a243885fa3d52a1f1c32a966104ed6fb3aefce17f8a9661fdf58ca138fe1a5c7"
+    }
+  ],
+  "reviewedRecordsSha256": "5f1c17993a6ae39f76337ce05f657034e2aa18200e0c837766d885fcd7bb5d41",
+  "verified": 675,
+  "pending": [],
+  "scoringOverrides": [
+    {
+      "year": 2025,
+      "q": 34,
+      "choice": "D",
+      "policy": "User requested reference-answer scoring; mathematical dispute retained; official marking scheme not obtained."
+    }
+  ],
+  "method": "674 reviewed calculations agree with public answer extraction; 2025 Q34 uses a user-approved D scoring override. OCR only locates original-image crops; it never supplies answer keys."
+}

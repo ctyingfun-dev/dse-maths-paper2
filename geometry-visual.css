@@ -1,0 +1,28 @@
+.geometry-visual{margin:16px 0;border:1px solid #b7cec6;border-radius:12px;background:#f5faf7;color:#233c36}
+.geometry-visual summary{padding:16px;font-weight:700;cursor:pointer;line-height:1.6}
+.gv-body{padding:0 16px 16px}
+.gv-body p{line-height:1.85}
+.gv-note{font-size:.9rem;color:#52635d}
+.gv-content h4,.gv-water h4{font-size:1.05rem;line-height:1.7;margin:12px 0}
+.geometry-visual svg{display:block;width:100%;height:auto;max-width:400px;margin:12px auto;background:#fff;border-radius:8px}
+.geometry-visual svg polygon,.geometry-visual svg path,.geometry-visual svg ellipse,.geometry-visual svg circle,.geometry-visual svg line{fill:none;stroke:#39584e;stroke-width:1.8;stroke-linejoin:round}
+.geometry-visual svg text{fill:#233c36;font-size:13px;font-family:inherit;stroke:none}
+.geometry-visual svg .gv-fill{fill:#c3e6dc}
+.geometry-visual svg .gv-dash{stroke-dasharray:5 4;stroke:#72867e}
+.geometry-visual svg .gv-cut,.geometry-visual svg .gv-radius{stroke:#007663;stroke-width:3}
+.geometry-visual svg .gv-height{stroke:#256c9d;stroke-width:3}
+.geometry-visual svg .gv-slant{stroke:#a55522;stroke-width:3}
+.gv-formula{padding:14px;background:#fff;border-left:3px solid #287d69;line-height:2.4;overflow-wrap:anywhere}
+.gv-frac{display:inline-flex;flex-direction:column;align-items:stretch;text-align:center;vertical-align:middle;line-height:1.5;margin:0 .25em;max-width:100%}
+.gv-frac>span{padding:0 .25em}
+.gv-frac>span+span{border-top:1px solid currentColor}
+.gv-power{display:inline-flex;align-items:center;white-space:nowrap}
+.gv-power sup{align-self:flex-start;line-height:1.3}
+.gv-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+.gv-body button{min-height:44px;padding:8px 14px;border:1px solid #91b4a7;border-radius:8px;background:#fff;color:#234b3e;font:inherit;cursor:pointer}
+.gv-body button:disabled{opacity:.45;cursor:default}
+.gv-body button:focus-visible,.gv-body input:focus-visible,.geometry-visual summary:focus-visible{outline:3px solid #287d69;outline-offset:3px}
+.gv-water{margin-top:20px;padding-top:12px;border-top:1px solid #b7cec6}
+.gv-water input{display:block;width:100%;min-height:44px;accent-color:#287d69}
+.gv-status{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:420px){.gv-body{padding:0 10px 12px}.gv-formula{padding:10px}.geometry-visual summary{padding:12px}.gv-nav{gap:6px}.gv-body button{padding:8px 10px}}
