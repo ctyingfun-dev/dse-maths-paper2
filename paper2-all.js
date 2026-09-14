@@ -37,8 +37,7 @@ function searchFromHash() {
     year: years.includes(Number(params.get('year'))) ? Number(params.get('year')) : 2012,
     resultYear: years.includes(Number(params.get('resultYear'))) ? params.get('resultYear') : 'all',
     mode: ['any', 'all', 'exact'].includes(params.get('mode')) ? params.get('mode') : 'any',
-    section: ['all', 'A', 'B'].includes(params.get('section')) ? params.get('section') : 'all',
-    text: params.get('text') ?? ''};
+    section: ['all', 'A', 'B'].includes(params.get('section')) ? params.get('section') : 'all'};
 }
 let search = searchFromHash();
 let methodIndex = 0;
@@ -249,15 +248,13 @@ function refreshInline(q, focusSelector) {
 }
 function findPage() {
   const source = byId.get(questionId(search.year,search.q));
-  const pool = matching(questions, source, search.mode, search.section, search.resultYear)
-    .filter(q => (q.summary + q.concepts.join(' ')).includes(search.text.trim()));
+  const pool = matching(questions, source, search.mode, search.section, search.resultYear);
   return `${head('同類題搜尋')}<form id="p2-search" class="p2-search">
     <label class="field">搜尋年份<select name="year">${yearOptions(search.year)}</select></label>
     <label class="field">題號<select name="q">${numbers.map(n => `<option value="${n}" ${n === search.q ? 'selected' : ''}>第 ${n} 題</option>`).join('')}</select></label>
     <label class="field">概念條件<select name="mode">${[['any','至少一個相同'],['all','包含所有概念'],['exact','概念完全相同']].map(([v,t]) => `<option value="${v}" ${v === search.mode ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
     <label class="field">部分<select name="section">${[['all','全部'],['A','甲部'],['B','乙部']].map(([v,t]) => `<option value="${v}" ${v === search.section ? 'selected' : ''}>${t}</option>`).join('')}</select></label>
     <label class="field">同類題年份<select name="resultYear">${yearOptions(search.resultYear,true)}</select></label>
-    <label class="field">關鍵字<input name="text" value="${esc(search.text)}" placeholder="課題或題目內容"></label>
     <button class="primary" type="submit">${icon('search')}搜尋</button></form>
     <section class="p2-search-source" aria-labelledby="search-source-title">
     <div class="section-heading"><h2 id="search-source-title">你搜尋的題目</h2></div>
@@ -486,7 +483,7 @@ document.addEventListener('submit', event => {
   if (event.target.id !== 'p2-search') return;
   event.preventDefault();
   const fields = new FormData(event.target);
-  search = {year:Number(fields.get('year')),q: Number(fields.get('q')), resultYear:fields.get('resultYear'),mode: fields.get('mode'), section: fields.get('section'), text: fields.get('text')};
+  search = {year:Number(fields.get('year')),q: Number(fields.get('q')), resultYear:fields.get('resultYear'),mode: fields.get('mode'), section: fields.get('section')};
   shownResults = 12;
   history.replaceState(null, '', `#find?${new URLSearchParams(search)}`);
   render();

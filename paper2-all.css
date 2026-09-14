@@ -1,4 +1,4 @@
-.p2-search{grid-template-columns:repeat(4,minmax(0,1fr))}
+.p2-search{grid-template-columns:repeat(3,minmax(0,1fr))}
 .p2-search label,.p2-actions label{min-width:0}
 .page-head .p2-actions{margin:0;align-items:end}
 .p2-numbers button:has(small){height:48px}
